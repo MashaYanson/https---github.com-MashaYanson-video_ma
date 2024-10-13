@@ -8,7 +8,7 @@ const App = () => {
   const [videoJsOptions] = useState({
     autoplay: true,
     muted: true,
-    controls: false,
+    controls: true,
     responsive: false,
     fluid: false,
     aspectRatio: '9:16',
@@ -17,6 +17,7 @@ const App = () => {
       type: 'video/mp4'
     }]
   });
+
 
   const handlePlayerReady = useCallback((player) => {
     playerRef.current = player;
