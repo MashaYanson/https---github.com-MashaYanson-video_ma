@@ -8,7 +8,7 @@ const App = () => {
   const [videoJsOptions] = useState({
     autoplay: true,
     muted: true,
-    controls: true,
+    controls: false,
     responsive: false,
     fluid: false,
     aspectRatio: '9:16',
