@@ -13,7 +13,7 @@ const App = () => {
     fluid: false,
     aspectRatio: '9:16',
     sources: [{
-      src: 'https://getfile.dokpub.com/yandex/get/https://disk.yandex.ru/i/p7HpafJq51xOYg',
+      src: 'https://senicooswo.beget.app/index.php/s/ePC6QKmZanc83rc/download/Extended_Video.mp4',
       type: 'video/mp4'
     }]
   });
