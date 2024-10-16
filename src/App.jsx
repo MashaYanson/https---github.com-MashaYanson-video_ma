@@ -10,6 +10,8 @@ const App = () => {
     muted: true,
     controls: false,
     responsive: true,
+    loop: true,
+    muted: true,
     fluid: true,
     fill:true,
     sources: [{
