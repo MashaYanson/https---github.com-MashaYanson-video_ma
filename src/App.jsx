@@ -9,11 +9,11 @@ const App = () => {
     autoplay: true,
     muted: true,
     controls: false,
-    responsive: false,
-    fluid: false,
-    aspectRatio: '9:16',
+    responsive: true,
+    fluid: true,
+    fill:true,
     sources: [{
-      src: 'https://senicooswo.beget.app/index.php/s/ePC6QKmZanc83rc/download/Extended_Video.mp4',
+      src: 'https://froppy.stepinus.store/$/59I8c',
       type: 'video/mp4'
     }]
   });
@@ -33,18 +33,10 @@ const App = () => {
 
   return (
     <div className="App">
-      <div className="column left-column">
-        {/* Здесь можно добавить содержимое для левого столбца */}
-      </div>
-      <div className="column center-column">
         <div className="player-wrapper">
           <VideoPlayer options={videoJsOptions} onReady={handlePlayerReady} />
         </div>
       </div>
-      <div className="column right-column">
-        {/* Здесь можно добавить содержимое для правого столбца */}
-      </div>
-    </div>
   );
 };
 

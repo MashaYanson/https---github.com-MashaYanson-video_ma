@@ -5,54 +5,22 @@ body, html, #root {
   width: 100%;
   height: 100%;
 }
-
 .App {
-  display: flex;
-  width: 100%;
-  height: 100%;
-}
-
-.column {
-  height: 100%;
-}
-
-.left-column, .right-column {
-  flex: 1;
-  background-color: #201442; /* Изменено: новый цвет фона */
-}
-
-.center-column {
-  flex: 0 0 auto; /* Изменено: фиксированная ширина */
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 100%;
 }
 
 .player-wrapper {
-  width: calc(100vh * 9 / 16); /* Ширина, основанная на высоте viewport */
   height: 100vh; /* Полная высота viewport */
-  max-width: 100%; /* Предотвращаем выход за границы на узких экранах */
 }
 
 .video-js {
-  width: 100% !important;
-  height: 100% !important;
+  /* height: 100% !important; */
 }
 
 /* Убедимся, что видео занимает всю высоту плеера */
 .video-js video {
-  object-fit: cover;
+  object-fit: fill;
 }
 
-/* Опциональные стили для улучшения внешнего вида */
-.video-js .vjs-big-play-button {
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 
-/* Скрываем ненужные элементы */
-h1, .logo, .card, .read-the-docs {
-  display: none;
-}
+
